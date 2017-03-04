@@ -64,11 +64,11 @@ hr.star-light:after {
     color: #fff
 }
 hr.star-primary {
-    border-color: #2C3E50
+    border-color: #48484a
 }
 hr.star-primary:after {
     background-color: #fff;
-    color: #2C3E50
+    color: #48484a
 }
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-brand.active,
@@ -203,7 +203,7 @@ section.success {
     margin: 0 auto
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-    background: rgba(24, 188, 156, .9);
+    background: rgba(109, 110, 113, .9);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -310,7 +310,7 @@ footer .footer-col {
 }
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140
+    background-color: #3a3a3a
 }
 .btn-outline {
     color: #fff;
