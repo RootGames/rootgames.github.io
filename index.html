@@ -32,8 +32,8 @@
 </head>
 
 <script>
-	$("#myModal").on('hidden.bs.modal', function (e) {
-		$("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));
+	$("#modal").on('hidden.bs.modal', function (e) {
+		$("#modal iframe").attr("src", $("#modal iframe").attr("src"));
 	});
 </script>
 
@@ -215,9 +215,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                <p>Mail to:
+					<a href="mailto:info@root-games.com?Subject=A%20new%20message%20from%20Root%20Games%20website" target="_top">info@root-games.com</a>
+				</p>
+				<!--<div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. 
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
@@ -233,13 +236,13 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <!--<div class="row control-group">
+                        <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Phone Number</label>
                                 <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
                                 <p class="help-block text-danger"></p>
                             </div>
-                        </div>-->
+                        </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Message</label>
@@ -256,7 +259,7 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
