@@ -239,15 +239,32 @@
                 </div>
             </div>
             <div class="row">
-                <!-- <center>
+                <!-- E posta gönder linki kodu -->
+				<!-- <center>
 					</br>
 					<h5>Send an e-mail to: </h5>
 					<a href="mailto:info@root-games.com?Subject=A%20new%20message%20from%20Root%20Games%20website" target="_top">info@root-games.com</a>
 				</center>  -->
+				
+				<!-- Form formspree kod -->
 				<div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
+					<form id="contForm" name="contactMessage" method="POST" action="https://formspree.io/info@root-games.com">
+						<label>Name</label>
+						<input type="text" name="name" placeholder="Your name">
+						<label>Email Address</label>
+						<input type="email" name="_replyto" placeholder="Your email">
+						<label>Message</label>
+						<textarea name="message" placeholder="Your message"></textarea>
+						<button type="submit">Send</button>
+					</form>
+				<div>
+				
+				<!-- Form orjinal kod -->
+				<!-- <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.
+						The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    
+					<!-- <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
@@ -268,7 +285,7 @@
                                 <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
                                 <p class="help-block text-danger"></p>
                             </div>
-                        </div>  -->
+                        </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Message</label>
@@ -284,7 +301,7 @@
                             </div>
                         </div>
                     </form>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
