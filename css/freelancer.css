@@ -535,8 +535,8 @@ height: 100%;
     margin-right:-4px;
 }
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+.carousel-inner > .portfolio-item > img,
+.carousel-inner > .portfolio-item > a > img {
       width: 100%;
       margin: auto;
 }
@@ -544,7 +544,7 @@ height: 100%;
 /* Multi-item carousel for games */
 .multi-item-carousel{
   .carousel-inner{
-    > .item{
+    > .portfolio-item{
       transition: 500ms ease-in-out left;
     }
     .active{
@@ -562,7 +562,7 @@ height: 100%;
       left: -33%;
     }
     @media all and (transform-3d), (-webkit-transform-3d) {
-      > .item{
+      > .portfolio-item{
         /* use your favourite prefixer here*/
         transition: 500ms ease-in-out left;
         transition: 500ms ease-in-out all;
